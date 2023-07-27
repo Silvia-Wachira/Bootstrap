@@ -10,11 +10,13 @@
 </head>  
 <body>
     <div class="container">
-        <form novalidate>
+        <form novalidate >
             <div class="form-floating">
                 <input type="email" id="email" class="form-control" 
                 placeholder="Place email here" required>
                 <label for="email" >Email</label>
+                <div class="invalid-feedback">Invalid email</div>
+                <div class="valid-feedback">Correct email</div>
             </div>
             <button>Submit</button>
         </form>
